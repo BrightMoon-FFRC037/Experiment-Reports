@@ -1,0 +1,27 @@
+MODEL        2
+REMARK  1  -9.51 kcal/mol  Ki 106.67 nM c:3
+REMARK   4 XXXX COMPLIES WITH FORMAT V. 2.0
+ATOM      1  N3  INB G         -52.083 -15.596  14.210  0.00  0.00      out_ N  
+ATOM      2  C6  INB G         -51.306 -15.117  13.325  0.00  0.00      out_ C  
+ATOM      3  C5  INB G         -51.627 -15.788  15.522  0.00  0.00      out_ C  
+ATOM      4  C4  INB G         -50.262 -15.624  15.871  0.00  0.00      out_ C  
+ATOM      5  C1  INB G         -49.811 -15.841  17.194  0.00  0.00      out_ C  
+ATOM      6  C10 INB G         -50.746 -16.241  18.173  0.00  0.00      out_ C  
+ATOM      7  C13 INB G         -52.100 -16.424  17.837  0.00  0.00      out_ C  
+ATOM      8  C9  INB G         -52.544 -16.205  16.517  0.00  0.00      out_ C  
+ATOM      9  C14 INB G         -54.012 -16.419  16.184  0.00  0.00      out_ C  
+ATOM     10  N1  INB G         -48.389 -15.659  17.543  0.00  0.00      out_ N  
+ATOM     11  O2  INB G         -47.799 -16.586  18.087  0.00  0.00      out_ O  
+ATOM     12  O3  INB G         -47.857 -14.586  17.272  0.00  0.00      out_ O  
+ATOM     13  C2  INB G         -51.462 -15.215  11.847  0.00  0.00      out_ C  
+ATOM     14  C7  INB G         -50.604 -14.406  11.065  0.00  0.00      out_ C  
+ATOM     15  C3  INB G         -50.653 -14.412   9.652  0.00  0.00      out_ C  
+ATOM     16  C11 INB G         -51.589 -15.250   9.009  0.00  0.00      out_ C  
+ATOM     17  C12 INB G         -52.452 -16.059   9.766  0.00  0.00      out_ C  
+ATOM     18  C8  INB G         -52.400 -16.050  11.173  0.00  0.00      out_ C  
+ATOM     19  O5  INB G         -53.285 -16.860  11.831  0.00  0.00      out_ O  
+ATOM     20  N2  INB G         -49.744 -13.557   8.863  0.00  0.00      out_ N  
+ATOM     21  O1  INB G         -49.890 -12.341   8.923  0.00  0.00      out_ O  
+ATOM     22  O4  INB G         -48.880 -14.101   8.181  0.00  0.00      out_ O  
+TER      23      INB G     
+ENDMDL

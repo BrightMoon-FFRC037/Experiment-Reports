@@ -1,0 +1,32 @@
+MODEL        1
+REMARK  6  -9.79 kcal/mol  Ki 66.92 nM c:4
+REMARK   4 XXXX COMPLIES WITH FORMAT V. 2.0
+ATOM      1  C2  INB G         -50.480 -14.589  15.834  0.00  0.00      out_ C  
+ATOM      2  N3  INB G         -50.612 -15.478  14.835  0.00  0.00      out_ N  
+ATOM      3  O4  INB G         -49.891 -13.515  15.716  0.00  0.00      out_ O  
+ATOM      4  H2  INB G         -51.011 -16.390  15.015  0.00  0.00      out_ H  
+ATOM      5  C8  INB G         -51.095 -14.972  17.182  0.00  0.00      out_ C  
+ATOM      6  O3  INB G         -50.343 -16.036  17.753  0.00  0.00      out_ O  
+ATOM      7  C3  INB G         -49.649 -15.804  18.921  0.00  0.00      out_ C  
+ATOM      8  C1  INB G         -48.253 -15.554  18.837  0.00  0.00      out_ C  
+ATOM      9  C4  INB G         -47.510 -15.352  20.023  0.00  0.00      out_ C  
+ATOM     10  C10 INB G         -48.136 -15.386  21.284  0.00  0.00      out_ C  
+ATOM     11  C11 INB G         -49.519 -15.631  21.366  0.00  0.00      out_ C  
+ATOM     12  C9  INB G         -50.269 -15.841  20.194  0.00  0.00      out_ C  
+ATOM     13  N1  INB G         -47.556 -15.495  17.536  0.00  0.00      out_ N  
+ATOM     14  O1  INB G         -46.942 -14.475  17.239  0.00  0.00      out_ O  
+ATOM     15  O2  INB G         -47.607 -16.489  16.818  0.00  0.00      out_ O  
+ATOM     16  C14 INB G         -47.323 -15.168  22.546  0.00  0.00      out_ C  
+ATOM     17  C15 INB G         -46.492 -13.881  22.484  0.00  0.00      out_ C  
+ATOM     18  N2  INB G         -50.260 -15.240  13.555  0.00  0.00      out_ N  
+ATOM     19  C7  INB G         -51.189 -15.371  12.678  0.00  0.00      out_ C  
+ATOM     20  C5  INB G         -51.065 -14.847  11.302  0.00  0.00      out_ C  
+ATOM     21  C6  INB G         -50.471 -13.581  11.059  0.00  0.00      out_ C  
+ATOM     22  C13 INB G         -50.358 -13.092   9.741  0.00  0.00      out_ C  
+ATOM     23  C17 INB G         -50.831 -13.852   8.657  0.00  0.00      out_ C  
+ATOM     24  C16 INB G         -51.423 -15.107   8.887  0.00  0.00      out_ C  
+ATOM     25  C12 INB G         -51.538 -15.601  10.200  0.00  0.00      out_ C  
+ATOM     26  O5  INB G         -49.994 -12.805  12.080  0.00  0.00      out_ O  
+ATOM     27  H8  INB G         -49.643 -11.978  11.788  0.00  0.00      out_ H  
+TER      28      INB G     
+ENDMDL

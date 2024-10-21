@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_16  and  C1_1 
+REMARK       I    between atoms: C1_1  and  N1_2 
+REMARK       I    between atoms: C5_3  and  N1_2 
+REMARK    2  A    between atoms: N1_2  and  C3_6 
+REMARK    3  A    between atoms: C5_3  and  C14_25 
+REMARK    4  A    between atoms: C6_10  and  N2_13 
+REMARK    5  A    between atoms: C4_17  and  C8_22 
+ROOT
+ATOM      1  C1  INB d   0     -50.999 -15.708  12.815  0.00  0.00     0.267 C 
+ATOM      2  N1  INB d   0     -52.024 -15.749  13.727  0.00  0.00    -0.246 N 
+ATOM      3  C5  INB d   0     -53.359 -15.637  13.434  0.00  0.00     0.243 C 
+ATOM      4  O1  INB d   0     -49.813 -15.737  13.159  0.00  0.00    -0.267 OA
+ATOM      5  O4  INB d   0     -53.811 -15.387  12.314  0.00  0.00    -0.272 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C3  INB d   0     -51.643 -15.745  15.111  0.00  0.00     0.066 A 
+ATOM      7  C10 INB d   0     -51.563 -16.982  15.785  0.00  0.00     0.019 A 
+ATOM      8  C11 INB d   0     -51.199 -17.038  17.143  0.00  0.00     0.025 A 
+ATOM      9  C6  INB d   0     -50.910 -15.854  17.857  0.00  0.00     0.126 A 
+ATOM     10  C9  INB d   0     -50.994 -14.615  17.181  0.00  0.00     0.021 A 
+ATOM     11  C7  INB d   0     -51.356 -14.548  15.819  0.00  0.00    -0.004 A 
+ATOM     12  C15 INB d   0     -51.434 -13.186  15.153  0.00  0.00     0.033 C 
+BRANCH   9  13
+ATOM     13  N2  INB d   0     -50.528 -15.910  19.283  0.00  0.00    -0.114 N 
+ATOM     14  O3  INB d   0     -49.337 -15.850  19.567  0.00  0.00    -0.532 OA
+ATOM     15  O2  INB d   0     -51.420 -16.013  20.119  0.00  0.00    -0.532 OA
+ENDBRANCH   9  13
+ENDBRANCH   2   6
+BRANCH   1  16
+ATOM     16  C2  INB d   0     -51.261 -15.575  11.331  0.00  0.00     0.062 A 
+ATOM     17  C4  INB d   0     -50.869 -14.446  10.541  0.00  0.00     0.069 A 
+ATOM     18  C13 INB d   0     -51.117 -14.477   9.146  0.00  0.00     0.006 A 
+ATOM     19  C18 INB d   0     -51.765 -15.568   8.542  0.00  0.00     0.000 A 
+ATOM     20  C17 INB d   0     -52.180 -16.655   9.325  0.00  0.00     0.000 A 
+ATOM     21  C12 INB d   0     -51.931 -16.653  10.708  0.00  0.00     0.005 A 
+BRANCH  17  22
+ATOM     22  C8  INB d   0     -50.213 -13.210  11.107  0.00  0.00     0.211 C 
+ATOM     23  O6  INB d   0     -49.899 -12.288  10.321  0.00  0.00    -0.644 OA
+ATOM     24  O5  INB d   0     -50.025 -13.119  12.338  0.00  0.00    -0.644 OA
+ENDBRANCH  17  22
+ENDBRANCH   1  16
+BRANCH   3  25
+ATOM     25  C14 INB d   0     -54.377 -15.728  14.594  0.00  0.00     0.089 C 
+ATOM     26  C16 INB d   0     -55.772 -16.206  14.158  0.00  0.00     0.010 C 
+ENDBRANCH   3  25
+TORSDOF 5
