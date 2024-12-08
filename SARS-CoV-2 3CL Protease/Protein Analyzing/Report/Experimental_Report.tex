@@ -8,6 +8,9 @@
 \usepackage{subfigure}
 \usepackage[a4paper,top=2cm,bottom=2cm,right=3cm,left=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{amsmath}
+\usepackage{overpic}      % For overlaying content
+\usepackage{upgreek}
+
 
 
 \title{3CL SARS-CoV-2 3CL Protease Analyzing}
@@ -15,6 +18,7 @@
 \date{September 27\\September 28\\October 11\\October 18\\2024}
 
 \begin{document}
+
 \maketitle
 \chapter{Introduction}
 \section{Protein Purification}
@@ -23,7 +27,7 @@ To extract the protein expressed by \textit{E.coli} we should homogenize the bac
 Homogenizer is used to break down the cell wall of bacteria considering its relatively thicker membrane compared with animal cells.
 \subsection{Column Chromatography}
 Before analyzing the protein, we should purify it first with the help of column chromatography including affinity chromatography and filtration chromatography.
-The affinity chromatography is used first for prominent separation while the filtration chromatography is used for refining.
+The affinity chromatography is used first for prominent separation while the filtration chromatography is used for further separation from which we can also deduce the molecular weight of the protein roughly.
 \subsection{Analyzing: SDS-PAGE}
 SDS-PAGE is the apparatus and methods for the electrophoresis of protein.
 SDS (detergent) is used to denature the protein and grant negative charge to them.
@@ -40,7 +44,7 @@ $$
 
 
 The fluorescent substrate relates to \textbf{FRET}, which means the substrate will be fluorescent only when catalyzed by protease.
-Specifically speaking, DABCYL plays the role of dark quencher\cite{Quencher} while the EDANS\cite{EDANS} as the donor of fluorescence.
+Specifically speaking, DABCYL plays the role of dark quencher\raisebox{5pt}{\tiny \cite{Quencher}} while the EDANS\raisebox{5pt}{\tiny \cite{EDANS}} as the donor of fluorescence.
 The substrate (polypeptide) is stuck in the middle as shown in Figure \ref{Structure of Fluorescent Substrate}.
 \begin{figure}
     \centering
@@ -61,10 +65,10 @@ Further process of reaction will lead to more intensive fluorescence which can b
 \end{figure}
 The structure of inhibitor is shown in Figure \ref{Structure of Inhibitor}.
 It will repress the reaction catalyzed by 3CL protease probably by competitive binding to the enzyme.
-And we will determine the \textbf{Half-maximal Inhibitory Concentration, $IC_{50}$} through speed of reaction.
+And we will determine the \textbf{Half-maximal Inhibitory Concentration, IC$_{50}$} through speed of reaction.
 
 \section{Structure Detection: Structure Detection: CD Spectroscopy}
-The secondary structure of protein can be assessed by \textbf{Circular Dichroism Spectroscopy (CD Spectroscopy)}\cite{Lehninger}.
+The secondary structure of protein can be assessed by \textbf{Circular Dichroism Spectroscopy (CD Spectroscopy)}\raisebox{5pt}{\tiny \cite{Lehninger}}.
 The spectroscopy harnesses the differences in absorption of left-handed versus right-handed circularly polarized light.
 As for the range of wave length, the far UV region (190 to 250 nm) is used to analysis.
 The $\alpha$ helix and $\beta$ sheets have characteristic CD spectra due to their peptide bond folding states.
@@ -124,14 +128,14 @@ After determining the most suitable ligand, I analyzed the interaction between t
 \subsubsection{Procedure}
 \begin{itemize}
     \item Stir the buffer lysis containing \textit{E.coli} until without obvious lumps and precipitates in an ice bath.
-    \item Filter the mixture (50 mL) by gauze and then pour into the \textbf{homogenizer}\cite{Homogenization} with 10 mL \ce{H2O} following the below settings:
+    \item Filter the mixture (50 mL) by gauze and then pour into the \textbf{homogenizer}\raisebox{5pt}{\tiny \cite{Homogenization}} with 10 mL \ce{H2O} following the below settings:
     \begin{itemize}
         \item Raise the pressure to 1,000 bar for 2 minutes.
         \item Pause 1 minute.
         \item Repeat the cycle 3 times.
     \end{itemize}
     \item Centrifugate the liquid at 14,000 rpm for 30 minutes.
-    \item Strain the product through a filter (0.45 $\mu$m) into a graduated cylinder.
+    \item Strain the product through a filter (0.45 $\upmu$m) into a graduated cylinder.
 \end{itemize}
 \subsection{Affinity Chromatography: Immobilized \ce{Ni^2+} Metal Ion + His-tag}
 \subsubsection{Materials}
@@ -167,7 +171,7 @@ The flow rate was set to be 1 mL/min for above operation.
 Then we loaded 55 mL sample after lysis into the column with the flow velocity to be 2 mL/min.
 After that, buffer A was constantly pumped into to column to elute impurities until the signal of UV absorbance went back near 0 mAU.
 Once the eluting was complete, we started to raise the proportion of buffer B linearly to form a linear gradient.
-The threshold to collect product was set to be 20 mAU.
+The threshold of scope to collect product was set to be 20\% buffer elution (within the 0\% to 100\% buffer elution gradient).
 The fraction collecting was performed automatically with the amount of 1.8 mL/tube.
 Finally, we collected tubes from number 3 to number 8, totally $6\times1.8=10.8$ mL.
 
@@ -179,14 +183,14 @@ In each turn, we decanted 5 mL solvent for the Gel-filtration Column to replace 
 The Gel-filtration Column has the capacity of 24 mL.
 We set pressure difference ($\Delta P=1.8$ MPa) to be the control threshold with the pre-column pressure ($P_{pre}=5.0$ MPa).
 Careful washing of the column and sample ring was performed.
-As for the sample ring, 4 mL ultra-pure water with 4 mL buffer assay were used to expel the air.
+As for the sample ring, 4 mL ultra-pure water with 4 mL buffer assay were used to wash the pipe.
 The two direction of washing(up to down and vice versa) with careful injector operation was included to ensure any bubble would be excluded from the column.
 
-The loading amount should be 500 $\mu$L with the concentration of 1 mg/mL.
+The loading amount should be 500 $\upmu$L with the concentration of 1 mg/mL.
 To ensure the sample concentration to be around 1 mg/mL, we detected the concentration of the sample by nano drop.
 The result was 6.737 Abs equivalent to $6.737\times1.07=7.21$ mg/mL.
-That means around 70 $\mu$L concentrated protease was needed with 430 $\mu$L buffer assay.
-However we enlarged the system by two fold which means diluting 140 $\mu$L concentrated protease with 860 $\mu$L buffer assay in case of failure.
+That means around 70 $\upmu$L concentrated protease was needed with 430 $\upmu$L buffer assay.
+However we enlarged the system by two fold which means diluting 140 $\upmu$L concentrated protease with 860 $\upmu$L buffer assay in case of failure.
 
 
 
@@ -198,7 +202,7 @@ Then condensed the sample as previous process in affinity chromatography.
     A &= 6.737\ Abs \\
     \epsilon &= 0.937\ \text{L/g}\cdot\text{cm} \\
     l &= 1\ \text{cm}\\
-    c &\approx 7.21\ \text{mg/mL}=\frac{7.21\ \text{g/L}}{34\times 10^3 \text{g/mol}}=212.1\ \mu\text{M}    
+    c &\approx 7.21\ \text{mg/mL}=\frac{7.21\ \text{g/L}}{34\times 10^3 \text{g/mol}}=212.1\ \upmu\text{M}    
 \end{align}
 
 
@@ -217,18 +221,18 @@ Four type of samples were prepared for SDS-PAGE to check the effect of protein p
     \item No.4 Sample after gel-filtration chromatography
 \end{itemize}
 
-In each well, we put 20 $\mu$L sample with 5 $\mu$L loading buffer except for No.3 which only left 8 $\mu$L.
-To control the concentration in consistency, only 2 $\mu$L loading buffer was added to No.3.
+In each well, we put 20 $\upmu$L sample with 5 $\upmu$L loading buffer except for No.3 which only left 8 $\upmu$L.
+To control the concentration in consistency, only 2 $\upmu$L loading buffer was added to No.3.
 
 We mixed the solution by \textbf{Vortex Genie 2} and centrifuge for instant.
 Then heated at 94 $^\circ$C for 3 minutes.
-Finally, loaded marker (2 $\mu$L) as well as the four types of sample (10 $\mu$L) into the polyacrylamide gel in sequence.
+Finally, loaded marker (2 $\upmu$L) as well as the four types of sample (10 $\upmu$L) into the polyacrylamide gel in sequence.
 
 The electrophoresis apparatus was set at 150 V working for 38 minutes.
 
 After electrophoresis, the gel was stained using Coomassie Brilliant Blue with heating in microwave oven for three times.
 In each turn, the paint was heated until boiling.
-\ce{H2O} plus acetic acid (3\%) was used to destain with the similar procedure in microwave oven.
+3\% Acetic acid-\ce{H2O} was used to destain with the similar procedure in microwave oven.
 
 \section{Enzyme Kinetics}
 % Table
@@ -238,9 +242,9 @@ In each turn, the paint was heated until boiling.
     
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
         Number of Sample&1&2&3&4&5&6&7&8 \\ \hline
-        Substrate Concentration ($\mu$M)&500&750&1000&1250&1500&2000&2500&3000 \\ \hline
-        DMSO Solvent ($\mu$L)& 9&8.5&8&7.5&7&6&5&4\\ \hline
-        5000$\mu$M Concentrated Substrate ($\mu$L)&1&1.5&2&2.5&3&4&5&6 \\ \hline
+        Substrate Concentration ($\upmu$M)&500&750&1000&1250&1500&2000&2500&3000 \\ \hline
+        DMSO Solvent ($\upmu$L)& 9&8.5&8&7.5&7&6&5&4\\ \hline
+        5000$\upmu$M Concentrated Substrate ($\upmu$L)&1&1.5&2&2.5&3&4&5&6 \\ \hline
     \end{tabular}
     \label{Substrate Solution Configuration in Microplate}
 \end{table}
@@ -267,26 +271,26 @@ The \textbf{two fold serial diluting}, as shown in Figure \ref{Serial Dilution o
 
 The independent variable in Michaelis Menton Equation is the concentration of substrate $[S]$.
 Thus to verify the equation we must configure the substrate solution of different concentrations.
-We started by dissolving 2 mg solid substrate into 192 $\mu$L DMSO solvent, which has the concentration of 5000 $\mu$M.
+We started by dissolving 2 mg solid substrate into 192 $\upmu$L DMSO solvent, which has the concentration of 5000 $\upmu$M.
 Then, we adjusted the ratio of DMSO and concentrated substrate to achieve 8 different concentrations of substrate solution, as shown in Table \ref{Substrate Solution Configuration in Microplate}.
 
-The Composition of the System (100 $\mu$L):
+The Composition of the System (100 $\upmu$L):
 \begin{itemize}
-    \item Buffer Assay (80 $\mu$L, 80\%)
+    \item Buffer Assay (80 $\upmu$L, 80\%)
     \begin{itemize}
         \item \ce{Na2HPO4 / NaH2PO4} (40 mM)
         \item \ce{NaCl} (100mM)
         \item \ce{EDTA} (1mM)
         \item Triton X-100 (0.1\%)
     \end{itemize}
-    \item SARS-CoV2-3CL Protease (10 $\mu$L, 10\%) (before mixing: 500 nM, after mixing: 50 nM)
-    \item Fluorescent Substrate (10 $\mu$L, 10\%) (before mixing the different concentrations can be seen in Table \ref{Substrate Solution Configuration in Microplate}).
+    \item SARS-CoV2-3CL Protease (10 $\upmu$L, 10\%) (before mixing: 500 nM, after mixing: 50 nM)
+    \item Fluorescent Substrate (10 $\upmu$L, 10\%) (before mixing the different concentrations can be seen in Table \ref{Substrate Solution Configuration in Microplate}).
     \item Temperature: 25$^\circ$C
 \end{itemize}
 
 3CL protease was preserved in fridge at -80$^\circ$C, which was then melted in ice box.
-The initial concentration of 3CL protease was 206 $\mu$M, and then we took 2 $\mu$L diluting it with 2 mL Buffer Assay to get 500 nM protease solution.
-The buffer assay was prepared by adding 50 $\mu$L Triton X-100 into 50 mL buffer solution at the very beginning.
+The initial concentration of 3CL protease was 206 $\upmu$M, and then we took 2 $\upmu$L diluting it with 2 mL Buffer Assay to get 500 nM protease solution.
+The buffer assay was prepared by adding 50 $\upmu$L Triton X-100 into 50 mL buffer solution at the very beginning.
 
 Both buffer assay and 3CL protease were partitioned equally into eight different wells in the same microplate, and were mixed using multichannel pipette in other three rows.
 Fluorescent substrate was stored in another microplate while was prepared according to Table \ref{Substrate Solution Configuration in Microplate}.
@@ -299,15 +303,15 @@ The original data is shown in Figure \ref{Reaction Rate versus Substrate Concent
 \subsubsection{Procedure}
 The inhibitor is consist of competitive inhibitor, uncompetitive inhibitor and mixed inhibitor.
 Instead of changing substrate concentration simultaneously, we varied inhibitor concentration [I] only and keep [S] under control.
-Also, we focused on \textbf{Half-maximal Inhibitory Concentration ($IC_{50}$)} only, without concerns about modified factors to $V_{max}$ or $K_m$.
+Also, we focused on \textbf{Half-maximal Inhibitory Concentration (IC$_{50}$)} only, without concerns about modified factors to $V_{max}$ or $K_m$.
 
 The following procedure was used to prepare to inhibitor solution with different concentration:
 
 % List
 \begin{itemize}
-    \item sample 20 $\mu$L concentrated inhibitor(20 mM) solution with 180 $\mu$L DMSO as additional solvent. Then mix in $1^{st}$ well of microplate, which has the concentration of 200 $\mu$M.
-    \item prepare 30 $\mu$L DMSO in each well of $1^{st}$ raw.
-    \item take 30 $\mu$L solution from $1^{st}$ to $2^{nd}$ and mix in $2^{nd}$ well.
+    \item sample 20 $\upmu$L concentrated inhibitor(20 mM) solution with 180 $\upmu$L DMSO as additional solvent. Then mix in $1^{st}$ well of microplate, which has the concentration of 200 $\upmu$M.
+    \item prepare 30 $\upmu$L DMSO in each well of $1^{st}$ raw.
+    \item take 30 $\upmu$L solution from $1^{st}$ to $2^{nd}$ and mix in $2^{nd}$ well.
     \item repeat the step for the following wells to perform two fold serial dilution as shown in Figure \ref{Serial Dilution of Inhibitor}.
 \end{itemize}
 
@@ -315,18 +319,18 @@ To get the solution of substrate, we decanted 1.92 mL DMSO into 2 mg fluorescent
 As shown in Figure \ref{Inhibitor Solution Configuration in Microplate}, the substrate and inhibitor were in different rows.
 To be noted that, in reality, they were also stored in separated microplates to avoid unwanted illumination of fluorescent substrate.
 
-The Composition of the System (100 $\mu$L):
+The Composition of the System (100 $\upmu$L):
 \begin{itemize}
-    \item Buffer Assay (80 $\mu$L, 80\%)
+    \item Buffer Assay (80 $\upmu$L, 80\%)
     \begin{itemize}
         \item \ce{Na2HPO4 / NaH2PO4} (40 mM)
         \item \ce{NaCl} (100mM)
         \item \ce{EDTA} (1mM)
         \item Triton X-100 (0.1\%)
     \end{itemize}
-    \item SARS-CoV2-3CL Protease (10 $\mu$L, 10\%) (before mixing: 500 nM, after mixing: 50 nM)
-    \item Fluorescent Substrate (5 $\mu$L, 5\%) (before mixing: 500 $\mu$M, after mixing: 25 $\mu$M)
-    \item Inhibitor (5 $\mu$L, 5\%) (after mixing the serial concentration can be seen in Figure \ref{Reaction Rate versus Inhibitor Concentration: 12 groups of experiments, each has 3 parallel groups}).
+    \item SARS-CoV2-3CL Protease (10 $\upmu$L, 10\%) (before mixing: 500 nM, after mixing: 50 nM)
+    \item Fluorescent Substrate (5 $\upmu$L, 5\%) (before mixing: 500 $\upmu$M, after mixing: 25 $\upmu$M)
+    \item Inhibitor (5 $\upmu$L, 5\%) (after mixing the serial concentration can be seen in Figure \ref{Reaction Rate versus Inhibitor Concentration: 12 groups of experiments, each has 3 parallel groups}).
     \item Temperature: 25$^\circ$C
 \end{itemize}
 
@@ -349,11 +353,11 @@ Therefore, we diluted and mixed the protein with guanidine according to the Tabl
         \toprule
         No. & Guanidine Final Concentration (M) & Guanidine Volume (mL) & CD Buffer (mL) & Protein (mL) \\
         \midrule
-        1 & 1.200000 & 0.200000 & 0.800000 & 1 \\
-        2 & 2.400000 & 0.400000 & 0.600000 & 1 \\
-        3 & 3.600000 & 0.600000 & 0.400000 & 1 \\
-        4 & 4.800000 & 0.800000 & 0.200000 & 1 \\
-        5 & 6.000000 & 1.000000 & 0.000000 & 1 \\
+        1 & 1.2 & 0.2 & 0.8 & 1 \\
+        2 & 2.4 & 0.4 & 0.6 & 1 \\
+        3 & 3.6 & 0.6 & 0.4 & 1 \\
+        4 & 4.8 & 0.8 & 0.2 & 1 \\
+        5 & 6.0 & 1.0 & 0.0 & 1 \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -364,11 +368,11 @@ However we adapted the more practical control of time by limiting the whole proc
 Finally we took measurement for five different samples.
 
 \section{Thermodynamic Parameters Measuring}
-For practical purposes, we chose the reaction of \ce{MgCl} and \ce{EDTA} to be measured instead of the binding of inhibitor with protein.
+For practical purposes, we chose the reaction of \ce{MgCl2} and \ce{EDTA} to be measured instead of the binding of inhibitor with protein.
 The measurements were performed twice under 25$^\circ$C and 30$^\circ$C respectively with the parameters shown in Table \ref{Experimental Parameters of ITC}.
 
 Since most of the steps were performed automatically, the only process that remained difficult was loading or injecting the solution into the cells.
-Strict 280 $\mu$L was injected into the cells confirmed by the steady curve in the initial delay period.
+Strict 280 $\upmu$L was injected into the cells confirmed by the steady curve in the initial delay period.
 \begin{table}
     \centering
     \caption{Experimental Parameters of ITC}
@@ -393,7 +397,7 @@ Strict 280 $\mu$L was injected into the cells confirmed by the steady curve in t
 We used AutoDock Vina to be the docking engine for the experiment, which had been installed on our laptops' linux environment (windows subsystem).
 There were twenty ligand candidates to be the inhibitor and we would choose the one having maximal binding affinity.
 To perform molecular docking in Vina, a key step was determining the center and size of vina box for searching.
-I uploaded the 7EN8 protein data to the website called PKUMDL\cite{pkumdl} to get box size and box center which corresponds to the binding pocket of the protein.
+I uploaded the 7EN8 protein data to the website called CAVITYPLUS\raisebox{5pt}{\tiny \cite{pkumdl}} to get box size and box center which corresponds to the binding pocket of the protein.
 
 I screened the inhibitor according to the maximal binding affinity of each ligand.
 
@@ -432,6 +436,11 @@ The effect can be seen in Figure \ref{Results of SDS-PAGE}.
 Compared with the fourth column, the last column after gel-filtration chromatography does not show additional purification.
 Probably, the solution had been purified to an extreme extend after affinity chromatography, which leads to the unobvious improvement.
 
+Besides, the molecular weight can be estimated according to the volume where we observed the peak of UV absorbance in Figure \ref{Gel-filtration Chromatography: UV absorbance with Conductace}.
+The UV peak locates near 10.1 mL, and therefore the molecular weight is around 43 kDa (between 13.7 kDa to 43 kDa).
+$$
+\text{molecular weight}\approx 43 \ \text{kDa}
+$$
 \begin{figure}
     \centering
     \includegraphics[width=0.6\linewidth]{../Figures/Filtration Column UV.png}
@@ -484,20 +493,20 @@ V_{max}=20 \ \text{RFU/second}
 $$
 
 $$
-K_{m}=28.99 \ \mu \text{M}
+K_{m}=28.99 \ \upmu \text{M}
 $$
 
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{../Figures/substrate1.png}
+    \includegraphics[width=0.5\linewidth]{../Figures/substrate1.png}
     \caption{Reaction Rate versus Substrate Concentration: 8 groups of experiments, each has 3 parallel groups}
     \label{Reaction Rate versus Substrate Concentration: 8 groups of experiments}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{../Figures/substrate2.png}
+    \includegraphics[width=0.5\linewidth]{../Figures/substrate2.png}
     \caption{Reaction Rate versus Substrate Concentration: in normal axes}
     \label{Reaction Rate versus Substrate Concentration: in normal axes}
 \end{figure}
@@ -513,7 +522,7 @@ $$
 The reaction speed was also detected by \textbf{ELISA}.
 Twelve subfigures are shown in Figure \ref{Reaction Rate versus Inhibitor Concentration: 12 groups of experiments, each has 3 parallel groups} and each of them corresponds to a different inhibitor concentration [I].
 There are two intriguing phenomena in the figure.
-Firstly, one group in [I]=10 $\mu$M and one group in [I]=1.25 $\mu$L exist extreme fluctuations which may caused by bubbles in solution.
+Firstly, one group in [I]=10 $\upmu$M and one group in [I]=1.25 $\upmu$L exist extreme fluctuations which may caused by bubbles in solution.
 Secondly, the reaction speed has negative value in high concentration of inhibitor.
 The major cause of that absurd phenomenon is probably the unsteady state with fluctuation at early initial period.
 To eliminate the negative value and disturbance of it, I also decided to omit the early four points, which should reasonable and appropriate.
@@ -530,18 +539,18 @@ To eliminate the negative value and disturbance of it, I also decided to omit th
 
 I performed linear regression again to each group and average the parallel groups to get the mean speed of reaction.
 Then the plot of mean speed $\bar{V_0}$ versus inhibitor concentration was drawn.
-From Figure \ref{Reaction Rate versus Inhibitor Concentration: determining IC50}, we can identify the \textbf{Half-maximal Inhibitory Concentration $IC_{50}$}, which is $IC_{50}=0.095\ \mu M$.
-Somehow, the value is higher than the reported value $IC_{50}=0.095\ \mu M$.
+From Figure \ref{Reaction Rate versus Inhibitor Concentration: determining IC50}, we can identify the \textbf{Half-maximal Inhibitory Concentration IC$_{50}$}, which is IC$_{50}=0.095\ \upmu \text{M}$.
+Somehow, the value is higher than the reported value IC$_{50}=0.095\ \upmu \text{M}$.
 
 $$
-IC_{50}=0.095\ \mu \text{M}
+\text{IC}_{50}=0.095\ \upmu \text{M}
 $$
 
-The $IC_{50}=0.095\ \mu M$ measured by us was twice as the reported value $IC_{50}=0.045\ \mu M$, which may be caused by slightly different experimental conditions or by partial inefficiency of inhibitor solution.
+The IC$_{50}=0.095\ \upmu \text{M}$ measured by us was twice as the reported value IC$_{50}=0.045\ \upmu \text{M}$, which may be caused by slightly different experimental conditions or by partial inefficiency of inhibitor solution.
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{../Figures/inhibitor2.png}
-    \caption{Reaction Rate versus Inhibitor Concentration: determining IC50}
+    \caption{Reaction Rate versus Inhibitor Concentration: determining $\text{IC}_{50}$}
     \label{Reaction Rate versus Inhibitor Concentration: determining IC50}
 \end{figure}
 
@@ -554,7 +563,7 @@ The intuitive recognition can be acquired in Figure \ref{Reaction Rate versus In
 
     \begin{tabular}{|c|c|c|}
         \toprule
-         & Inhibitor Concentration ($\mu$M) & Inhibitory Rate \\
+         & Inhibitor Concentration ($\upmu$M) & Inhibitory Rate \\
         \midrule
         0 & 10.00 & 100.00 \% \\
         1 & 5.00 & 99.59 \% \\
@@ -577,17 +586,26 @@ The intuitive recognition can be acquired in Figure \ref{Reaction Rate versus In
 
 \section{Structure Detection: Structure Detection: CD Spectroscopy}
 The raw data gotten from CD spectrometer is shown in Figure \ref{CD Absorbance}.
-The similarity between the five groups indicated the failure of the experiment.
-Further more, after submitting the raw data to the website\cite{bestsel} to get the proportion of different secondary structures (alpha helix and beta sheets) as shown in Figure \ref{Secondary Structure of 3CL Protease}, we still could not tell the differences between the five groups.
+After submitting the raw data to the website\raisebox{5pt}{\tiny \cite{bestsel}} to get the proportion of different secondary structures (alpha helix and beta sheets) as shown in Figure \ref{Secondary Structure of 3CL Protease}, we still could not tell the differences between the five groups.
+However, we could still figure out the influence of guanidinium chloride.
+
+
+As shown in Figure \ref{CD Absorbance}, in the far-UV regin(190 nm to 260 nm), especially the peak near 240 nm, the CD absorbance (ellipticity) increased with guanidinium chloride concentration.
+While, in the near-UV regin (250 nm-320 nm), especially the CD absorbance peak extending from 260 nm to 280 nm, decreased and eventually diminished with the increasing guanidinium chloride concentration.
+This phenomena reflects the influence of guanidine to the secondary structure of protein, however, lacking of more concrete implication about the percentage of alpha-helix and beta-sheet.
+
+
 
 To analyze the reasons of the phenomenon, we can observe the pie chart shown in Figure \ref{Secondary Structure of 3CL Protease}.
 The proportion of alpha helix is rather small while the unstructured portion accounts for nearly half of the protein.
 Thus, I deduced the denaturing of protein even in the absence of guanidine.
 Besides, the CD spectroscopy could not provide extremely accurate measurement which could only verify assumptions rather than figure out the protein structure from bottom.
 
+
+
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{../Figures/CD absorbance.png}
+    \includegraphics[width=0.8\linewidth]{../Figures/CD absorbance.png}
     \caption{CD Absorbance}
     \label{CD Absorbance}
 \end{figure}
@@ -628,7 +646,7 @@ In Figure \ref{Titration Curve Measured by ITC}, the $25^\circ$C group as negati
         Temperature & 25$^\circ$C & 30$^\circ$C \\
         \midrule
         N & 1.16$\pm$0.0134 Sites & 1.07$\pm$0.00904 Sites \\
-        K & $2.14\times 10^5\pm4.81\times10^4$ M$^{-1}$ & $2.70\times 10^5\pm4.49\times10^4$ M$^{-1}$ \\
+        K & $2.14\times 10^5\pm4.81\times10^4$ \text{M}$^{-1}$ & $2.70\times 10^5\pm4.49\times10^4$ \text{M}$^{-1}$ \\
         ΔH &3431$\pm67.69$ $\text{cal}\cdot\text{mol}^{-1}$ & 4160$\pm57.64$ $\text{cal}\cdot\text{mol}^{-1}$ \\
         ΔS &  35.9 $\text{cal}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$  & 38.6 $\text{cal}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$  \\
         \bottomrule
@@ -636,6 +654,15 @@ In Figure \ref{Titration Curve Measured by ITC}, the $25^\circ$C group as negati
     \label{Thermodynamic Parameters Measured by ITC}
  \end{table}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{../Figures/Virtual Screen.png}
+    \caption{Virtual Screening of Ligand}
+    \label{Virtual Screening of Ligand}
+\end{figure}
+
+\section{Model of Protein Binding}
+\subsection{Virtual Screening: By Molecular Docking}
 \begin{table}
     \caption{Binding Affinity of Ligands}
     \label{Binding Affinity of 20 Ligands}
@@ -644,56 +671,32 @@ In Figure \ref{Titration Curve Measured by ITC}, the $25^\circ$C group as negati
         \toprule
         Number of Ligand & Affinity (kcal/mol) \\
         \midrule
-        1 & -6.829000 \\
-        2 & -7.170000 \\
-        3 & -6.591000 \\
-        4 & -6.149000 \\
-        5 & -7.819000 \\
-        6 & -7.761000 \\
-        7 & -7.235000 \\
-        8 & -6.888000 \\
-        9 & -7.647000 \\
-        10 & -7.105000 \\
-        11 & -7.439000 \\
-        12 & -7.077000 \\
-        13 & -8.243000 \\
-        14 & -7.177000 \\
-        15 & -7.833000 \\
-        16 & -8.323000 \\
-        17 & -7.771000 \\
-        18 & -6.583000 \\
-        19 & -7.574000 \\
-        20 & -6.150000 \\
+        1 & -6.829 \\
+        2 & -7.170 \\
+        3 & -6.591 \\
+        4 & -6.149 \\
+        5 & -7.819 \\
+        6 & -7.761 \\
+        7 & -7.235 \\
+        8 & -6.888 \\
+        9 & -7.647 \\
+        10 & -7.105 \\
+        11 & -7.439 \\
+        12 & -7.077 \\
+        13 & -8.243 \\
+        14 & -7.177 \\
+        15 & -7.833 \\
+        16 & -8.323 \\
+        17 & -7.771 \\
+        18 & -6.583 \\
+        19 & -7.574 \\
+        20 & -6.150 \\
         \bottomrule
         \end{tabular}        
       
 \end{table}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{../Figures/Virtual Screen.png}
-    \caption{Virtual Screening of Ligand}
-    \label{Virtual Screening of Ligand}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \subfigure[Ligand in the Pocket of Receptor]{
-        \includegraphics[width=0.5\linewidth]{../Figures/Receptor and Ligand 16.png}
-    }
-    \subfigure[Hydrogen Bond (Gln-110,Arg-298)]{
-        \includegraphics[width=0.5\linewidth]{../Figures/H-Bond.png}
-    }
-    \subfigure[pi-pi Interaction (Phe-294)]{
-        \includegraphics[width=0.5\linewidth]{../Figures/pi-pi interaction.png}
-    }
-    \caption{Interaction Analysis}
-    \label{Interaction Analysis}
-    
-\end{figure}
-\section{Model of Protein Binding}
-\subsection{Virtual Screening: By Molecular Docking}
-According to the computing at pkumdl website \cite{pkumdl}, the center of vina box should be (-5.5, -7.75,26.25) with the size of (12.0, 15.5, 18.5).
+According to the computing at pkumdl website\raisebox{5pt}{\tiny\cite{pkumdl}}, the center of vina box should be (-5.5, -7.75,26.25) with the size of (12.0, 15.5, 18.5).
 $$
 \text{center} = (-5.5, -7.75,26.25)
 $$
@@ -712,7 +715,24 @@ The H atom in the guanidino group of arginine at position of 298 is also the hyd
 The acceptor of hydrogen atoms are the oxygen atoms in ligand.
 
 As for the pi-pi interaction, the approximation of phenylalanine at 294 position to the aromatic rings of the ligand indicates the existence of pi-pi interaction.
-
+\begin{figure}
+    \centering
+    \subfigure[Ligand in the Pocket of Receptor]{
+        \includegraphics[width=0.4\linewidth]{../Figures/Receptor and Ligand 16.png}
+    }
+    \subfigure[Hydrogen Bond (Gln-110)]{
+        \includegraphics[width=0.4\linewidth]{../Figures/H-Bond.png}
+    }
+    \subfigure[Hydrogen Bond (Arg-298)]{
+        \includegraphics[width=0.4\linewidth]{../Figures/H-Bond-2.png}
+    }
+    \subfigure[pi-pi Interaction (Phe-294)]{
+        \includegraphics[width=0.4\linewidth]{../Figures/pi-pi interaction.png}
+    }
+    \caption{Interaction Analysis}
+    \label{Interaction Analysis}
+    
+\end{figure}
 \chapter{Conclusion}
 I was amazed by the carefully designed experimental classes which walked us through the wonderful process of analyzing protein.
 From my point of view, the set of experiments follows the logic: from unknown to known; from structure and function to application.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  21 OCT 2024 21:25
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  1 DEC 2024 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,32 +246,63 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen181
 \Gm@dimlist=\toks23
 
-(D:\Software\MiKTeX\tex/latex/geometry\geometry.cfg)) (Experimental_Report.aux)
+(D:\Software\MiKTeX\tex/latex/geometry\geometry.cfg))
+(D:\Software\MiKTeX\tex/latex/overpic\overpic.sty
+Package: overpic 2024/01/06 2.1 picture overlays (RN)
+
+(D:\Software\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count298
+\d@lta=\count299
+\@delta=\dimen182
+\@@delta=\dimen183
+\@gridcnt=\count300
+\@joinkind=\count301
+\@dotgap=\dimen184
+\@ddotgap=\dimen185
+\@x@diff=\count302
+\@y@diff=\count303
+\x@diff=\dimen186
+\y@diff=\dimen187
+\@dotbox=\box55
+\num@segments=\count304
+\num@segmentsi=\count305
+\@datafile=\read2
+)
+\OVP@box=\box56
+) (D:\Software\MiKTeX\tex/latex/was\upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+) (Experimental_Report.aux)
 \openout1 = `Experimental_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
+
 (D:\Software\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
-Package chemgreek Info: Activating mapping `default' on line 17.
+Package chemgreek Info: Activating mapping `upgreek' on line 20.
 
 
 *geometry* driver: auto-detecting
@@ -344,7 +375,7 @@ File: ../Figures/microplate.png Graphic file (type bmp)
 [6]
 
 [7]
-Overfull \hbox (40.83873pt too wide) in paragraph at lines 348--359
+Overfull \hbox (40.83873pt too wide) in paragraph at lines 352--363
  [][] 
  []
 
@@ -358,6 +389,11 @@ File: ../Figures/Affinity Column UV.png Graphic file (type bmp)
 <../Figures/Affinity Column UV.png>
 File: ../Figures/Affinity Column Conductance.png Graphic file (type bmp)
 <../Figures/Affinity Column Conductance.png>
+
+
+[10
+
+]
 File: ../Figures/Filtration Column UV.png Graphic file (type bmp)
 <../Figures/Filtration Column UV.png>
 File: ../Figures/Filtration Column UV and Conductance.png Graphic file (type bm
@@ -366,10 +402,6 @@ p)
 File: ../Figures/SDS-PAGE.png Graphic file (type bmp)
 <../Figures/SDS-PAGE.png>
 
-
-[10
-
-]
 
 [11]
 
@@ -382,17 +414,16 @@ File: ../Figures/substrate3.png Graphic file (type bmp)
 <../Figures/substrate3.png>
 File: ../Figures/inhibitor1.png Graphic file (type bmp)
 <../Figures/inhibitor1.png>
-File: ../Figures/inhibitor2.png Graphic file (type bmp)
-<../Figures/inhibitor2.png>
 
 
 [13]
 
 [14]
+File: ../Figures/inhibitor2.png Graphic file (type bmp)
+<../Figures/inhibitor2.png>
+
 
 [15]
-
-[16]
 File: ../Figures/CD absorbance.png Graphic file (type bmp)
 <../Figures/CD absorbance.png>
 File: ../Figures/g0.png Graphic file (type bmp)
@@ -413,41 +444,38 @@ File: ../Figures/ITC30.png Graphic file (type bmp)
 <../Figures/ITC30.png>
 File: ../Figures/Virtual Screen.png Graphic file (type bmp)
 <../Figures/Virtual Screen.png>
+
+
+[16]
+
+[17]
 File: ../Figures/Receptor and Ligand 16.png Graphic file (type bmp)
 <../Figures/Receptor and Ligand 16.png>
 File: ../Figures/H-Bond.png Graphic file (type bmp)
 <../Figures/H-Bond.png>
+File: ../Figures/H-Bond-2.png Graphic file (type bmp)
+<../Figures/H-Bond-2.png>
 File: ../Figures/pi-pi interaction.png Graphic file (type bmp)
 <../Figures/pi-pi interaction.png>
 
 
-LaTeX Warning: Float too large for page by 49.28554pt on input line 693.
-
-
-
-[17]
-
 [18]
 
 [19]
-
-[20]
-
-[21]
 Chapter 4.
 
 
-[22
+[20
 
 ]
 Appendix A.
 (Experimental_Report.bbl
 
-[23
+[21
 
 ])
 
-[24
+[22
 
 ] (Experimental_Report.aux)
  ***********
@@ -456,12 +484,12 @@ L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4056 strings out of 409029
- 73782 string characters out of 5762019
- 487890 words of memory out of 5000000
- 26653 multiletter control sequences out of 15000+600000
- 562101 words of font info for 71 fonts, out of 8000000 for 9000
+ 4311 strings out of 409029
+ 77284 string characters out of 5762019
+ 493690 words of memory out of 5000000
+ 26895 multiletter control sequences out of 15000+600000
+ 563799 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,13n,79p,619b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Experimental_Report.pdf (25 pages).
+Output written on Experimental_Report.pdf (23 pages).
