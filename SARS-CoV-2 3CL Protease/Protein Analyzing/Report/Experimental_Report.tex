@@ -405,6 +405,7 @@ I screened the inhibitor according to the maximal binding affinity of each ligan
 After selecting the most suitable ligand out, I observed the ligand and receptor in the software called PyMOL.
 The nearby residues surrounding the ligand were kept while irrelevant residues were hidden for clarify.
 Given the type of amino acid residues and the distance and conformation, I can deduce the interaction between the ligand and receptor.
+
 \chapter{Results and Discussion}
 \section{Protein Purification}
 \subsection{\textit{E.coli} Lysis: Homogenizer}
@@ -437,9 +438,9 @@ Compared with the fourth column, the last column after gel-filtration chromatogr
 Probably, the solution had been purified to an extreme extend after affinity chromatography, which leads to the unobvious improvement.
 
 Besides, the molecular weight can be estimated according to the volume where we observed the peak of UV absorbance in Figure \ref{Gel-filtration Chromatography: UV absorbance with Conductace}.
-The UV peak locates near 10.1 mL, and therefore the molecular weight is around 43 kDa (between 13.7 kDa to 43 kDa).
+The UV peak locates near 10.1 mL, and therefore the molecular weight is around 43 kDa (between 13.7 kDa to 43 kDa), which is consistent with the more exact result gotten from SDS-PAGE as following.
 $$
-\text{molecular weight}\approx 43 \ \text{kDa}
+\text{molecular weight}\approx 43 \ \text{kDa (according to Gel-filtration Chromatography)}
 $$
 \begin{figure}
     \centering
@@ -465,8 +466,11 @@ $$
 \end{figure}
 As shown in Figure \ref{Results of SDS-PAGE}, the effect of purification is obvious.
 The most effective method should be affinity chromatography while other steps are also playing an important role in the whole process.
-Besides, we can also figure out the molecular weight of 3CL protease which is near 34 kDa.
-
+Besides, we can also figure out the molecular weight of 3CL protease which is near \textbf{34 kDa}.
+$$
+\text{molecular weight}\approx 34 \ \text{kDa (according to SDS-PAGE)}
+$$
+The result of 34 kDa should be more accurate than the one obtained from Gel-Filtration Chromatography above.
 \section{Enzyme Kinetics}
 \subsection{Verifying Michaelis Menton Equation}
 The original data gotten from \textbf{ELISA} is visualized in Figure \ref{Reaction Rate versus Substrate Concentration: 8 groups of experiments}.
@@ -586,6 +590,15 @@ The intuitive recognition can be acquired in Figure \ref{Reaction Rate versus In
 
 \section{Structure Detection: Structure Detection: CD Spectroscopy}
 The raw data gotten from CD spectrometer is shown in Figure \ref{CD Absorbance}.
+Besides, we have already known the following parameters:
+
+\begin{align}
+\text{Number of Residues}&=306\text{ residues}+5\text{ histidines}=311\\
+\text{Concentration}&=29.4\text{ }\upmu\text{M}\\
+\text{Pathlength}&=1\text{ cm}
+\end{align}
+
+
 After submitting the raw data to the website\raisebox{5pt}{\tiny \cite{bestsel}} to get the proportion of different secondary structures (alpha helix and beta sheets) as shown in Figure \ref{Secondary Structure of 3CL Protease}, we still could not tell the differences between the five groups.
 However, we could still figure out the influence of guanidinium chloride.
 
@@ -733,6 +746,7 @@ As for the pi-pi interaction, the approximation of phenylalanine at 294 position
     \label{Interaction Analysis}
     
 \end{figure}
+
 \chapter{Conclusion}
 I was amazed by the carefully designed experimental classes which walked us through the wonderful process of analyzing protein.
 From my point of view, the set of experiments follows the logic: from unknown to known; from structure and function to application.
@@ -769,6 +783,7 @@ Hope this experience could lay a solid foundation for future exploration in the 
 
 
 \appendix
+
 \chapter{Equipments and Apparatus}
 \begin{itemize}
     \item FPLC: Produced by GE HealthCare Life Sciences

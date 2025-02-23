@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  1 DEC 2024 22:36
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  18 DEC 2024 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,16 +412,16 @@ File: ../Figures/substrate2.png Graphic file (type bmp)
 <../Figures/substrate2.png>
 File: ../Figures/substrate3.png Graphic file (type bmp)
 <../Figures/substrate3.png>
-File: ../Figures/inhibitor1.png Graphic file (type bmp)
-<../Figures/inhibitor1.png>
 
 
 [13]
-
-[14]
+File: ../Figures/inhibitor1.png Graphic file (type bmp)
+<../Figures/inhibitor1.png>
 File: ../Figures/inhibitor2.png Graphic file (type bmp)
 <../Figures/inhibitor2.png>
 
+
+[14]
 
 [15]
 File: ../Figures/CD absorbance.png Graphic file (type bmp)
@@ -438,6 +438,9 @@ File: ../Figures/g48.png Graphic file (type bmp)
 <../Figures/g48.png>
 File: ../Figures/g60.png Graphic file (type bmp)
 <../Figures/g60.png>
+
+
+[16]
 File: ../Figures/ITC25.png Graphic file (type bmp)
 <../Figures/ITC25.png>
 File: ../Figures/ITC30.png Graphic file (type bmp)
@@ -446,9 +449,9 @@ File: ../Figures/Virtual Screen.png Graphic file (type bmp)
 <../Figures/Virtual Screen.png>
 
 
-[16]
-
 [17]
+
+[18]
 File: ../Figures/Receptor and Ligand 16.png Graphic file (type bmp)
 <../Figures/Receptor and Ligand 16.png>
 File: ../Figures/H-Bond.png Graphic file (type bmp)
@@ -458,8 +461,6 @@ File: ../Figures/H-Bond-2.png Graphic file (type bmp)
 File: ../Figures/pi-pi interaction.png Graphic file (type bmp)
 <../Figures/pi-pi interaction.png>
 
-
-[18]
 
 [19]
 Chapter 4.

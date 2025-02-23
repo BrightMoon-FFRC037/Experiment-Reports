@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  22 NOV 2024 00:19
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.9.23)  20 DEC 2024 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,7 +245,30 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks23
 
 (D:\Software\MiKTeX\tex/latex/geometry\geometry.cfg))
-(D:\Software\MiKTeX\tex/latex/was\upgreek.sty
+(D:\Software\MiKTeX\tex/latex/overpic\overpic.sty
+Package: overpic 2024/01/06 2.1 picture overlays (RN)
+
+(D:\Software\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count297
+\d@lta=\count298
+\@delta=\dimen182
+\@@delta=\dimen183
+\@gridcnt=\count299
+\@joinkind=\count300
+\@dotgap=\dimen184
+\@ddotgap=\dimen185
+\@x@diff=\count301
+\@y@diff=\count302
+\x@diff=\dimen186
+\y@diff=\dimen187
+\@dotbox=\box55
+\num@segments=\count303
+\num@segmentsi=\count304
+\@datafile=\read2
+)
+\OVP@box=\box56
+) (D:\Software\MiKTeX\tex/latex/was\upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup4
@@ -259,29 +282,29 @@ LaTeX Warning: Unused global option(s):
 (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
  (D:\Software\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
-Package chemgreek Info: Activating mapping `upgreek' on line 19.
+Package chemgreek Info: Activating mapping `upgreek' on line 20.
 
 
 *geometry* driver: auto-detecting
@@ -337,10 +360,10 @@ L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3839 strings out of 409029
- 65388 string characters out of 5762019
- 472217 words of memory out of 5000000
- 26471 multiletter control sequences out of 15000+600000
+ 4005 strings out of 409029
+ 67660 string characters out of 5762019
+ 475882 words of memory out of 5000000
+ 26631 multiletter control sequences out of 15000+600000
  563711 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,8n,79p,457b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
